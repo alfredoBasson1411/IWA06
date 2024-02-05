@@ -8,7 +8,7 @@ const minuteOfDay = 00;
 
 // Only change below this line
 
-// Check if hourOfDay is defined, minuteOfDay is not null, and both are 00
+// Check if ''hourOfDay' is defined, minuteOfDay is not null, and both are 00
 if (typeof hourOfDay !== 'undefined' && minuteOfDay !== null && hourOfDay === 0 && minuteOfDay === 0) {
     // Convert tax to a decimal
     const taxAsDecimal = parseFloat(tax) / 100;
@@ -25,7 +25,7 @@ if (typeof hourOfDay !== 'undefined' && minuteOfDay !== null && hourOfDay === 0 
     // Output a message if the conditions for balance calculation are not met
     console.log('Balance calculation skipped: Invalid time or time not known.');
   }
-  
+  // done
   
   
   
